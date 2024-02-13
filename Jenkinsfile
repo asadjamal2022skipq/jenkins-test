@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                sh 'cp README.md /home/asad/'
+                sh 'cp README.md /home/shahzil/'
             }
         }
     }
