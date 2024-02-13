@@ -30,7 +30,7 @@ pipeline {
     post {
         always {
             echo 'The build has completed.'
-            archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
+            // archiveArtifacts artifacts: 'build/libs/**/*.jar', fingerprint: true
             junit 'build/reports/**/*.xml'
         }
         success {
